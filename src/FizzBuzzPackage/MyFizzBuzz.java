@@ -16,6 +16,9 @@ public class MyFizzBuzz  {
 		else if(i == 4) {
 			ans = "4";
 		}
+		else if(i == 5) {
+			ans = "Buzz";
+		}
 		return ans;
 	}
 }
