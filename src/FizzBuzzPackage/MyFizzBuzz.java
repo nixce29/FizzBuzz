@@ -10,7 +10,9 @@ public class MyFizzBuzz  {
 		else if(i == 2) {
 			ans = "2";
 		}
-		
+		else if(i == 3) {
+			ans = "Fizz";
+		}
 		return ans;
 	}
 }
