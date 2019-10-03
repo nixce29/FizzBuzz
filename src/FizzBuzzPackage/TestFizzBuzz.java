@@ -105,5 +105,12 @@ class TestFizzBuzz extends MyFizzBuzz{
 		assertEquals("13",out);
 		
 	}
+	@Test
+	@DisplayName("Input = 14 expected = 14")
+	void test_input_is_14_expect_output_is_14() {
+		String out = testInput.CheckFizzBuzz(14);
+		assertEquals("14",out);
+		
+	}
 
 }
